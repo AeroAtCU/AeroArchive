@@ -1,0 +1,4 @@
+head->NULL: sum is :0
+head->7->NULL: sum is :0
+head->-6->NULL: sum is :-6
+head->-6->4->5->2->10->NULL: sum is :10

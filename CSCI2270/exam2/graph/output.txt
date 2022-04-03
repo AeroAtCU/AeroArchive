@@ -1,0 +1,9 @@
+counting nodes with dist(3, 2)
+stopped on node: 5
+num nodes is: 2
+
+
+counting nodes with dist(2, 1)
+stopped on node: 2
+num nodes is: 2
+

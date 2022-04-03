@@ -1,0 +1,48 @@
+# Ignore binaries (Ignore all, unignore all w/ extensions, unignore dirs)
+*
+!*.*
+!*/
+*.zip
+
+# Personal
+*.jpg
+*.png
+*.asv
+*.swp
+*.pdf
+*.swo
+*.swn
+*.csv#
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app

@@ -1,0 +1,9 @@
+to compile and run on linux:
+clear && g++ -std=c++11 -g main.cpp -o main && ./main
+
+main code starts at line 215 of main.cpp
+
+I added 3 things to the hpp.
+line 116: int sumRange(...) for calling the sumRec and getting the val
+line 117: // void sumRec(...) for recursively summin things
+line 32: int range_sum for holding a rolling sum 

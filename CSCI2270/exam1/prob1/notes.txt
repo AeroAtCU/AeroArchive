@@ -1,0 +1,6 @@
+clear && g++ -std=c++11 -g main.cpp -o main && ./main
+
+// The above will run code if you're in the correct directory.
+// I have no problems but as I wrote in a comment on the cpp file,
+// I realize the implementation is poor but I'm trying to complete the
+// requirements, not write good code.

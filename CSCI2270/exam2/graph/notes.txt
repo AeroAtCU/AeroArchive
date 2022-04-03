@@ -1,0 +1,8 @@
+to compile:
+	clear && g++ -std=c++11 -g main.cpp -o main && ./main
+
+I have 400 seconds to turn this in, can't test it on other stuff.
+
+tested using example graph on the exam sheet
+
+main starts on line 268
