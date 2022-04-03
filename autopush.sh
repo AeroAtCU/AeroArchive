@@ -2,13 +2,14 @@
 # Doesn't necessarily add or rm everything it's supposed to. Use with care.
 exe() { echo "\$ $@" ; "$@" ; } # prints the command being  run
 
+# Handle user input for commit message
 if [ $# -eq 0 ]; then
     comment="autopush"
   else
     comment="$1"
 fi
 
-echo Autopushing all with comment "$comment"
+echo Autopushing all with comment... "$comment"
 exe git add -A
 exe git commit -m "$comment"
 
